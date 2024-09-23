@@ -8,6 +8,6 @@ namespace OrderManager.GraphQL
     {
         [Subscribe]
         [Topic]
-        public OrderManager OnOrderCreated([EventMessage] OrderManager order) => order;
+        public Order OnOrderCreated([EventMessage] Order order) => order;
     }
 }
