@@ -1,6 +1,6 @@
 # Repository Overview
 
-This repository contains multiple projects that demonstrate various implementations using ASP.NET Core, React.js, GraphQL, and Auth0 for authentication and authorization.
+This repository contains multiple projects that demonstrate various implementations using ASP.NET Core, React.js, GraphQL, In-Memory Cache and Auth0 for authentication and authorization.
 
 ## Projects
 
