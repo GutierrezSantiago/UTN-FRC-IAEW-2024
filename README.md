@@ -33,7 +33,7 @@ A GraphQL API for managing orders, built using ASP.NET Core.
 
 ---
 
-### 3. SpotifyGraphQLBFF
+### 3. SpotifyGraphQL
 **Description:**  
 A full-stack project featuring a React.js frontend and a Backend For Frontend (BFF) built in ASP.NET Core. It includes authentication and authorization with Auth0 and Spotify, and a GraphQL API for interacting with Spotify data.
 
@@ -49,6 +49,7 @@ A full-stack project featuring a React.js frontend and a Backend For Frontend (B
 - Auth0
 - Spotify API
 - GraphQL
+- In-Memory Cache
 
 ---
 
