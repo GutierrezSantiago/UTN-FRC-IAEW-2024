@@ -3,7 +3,7 @@ using OrderManager.Models;
 
 namespace OrderManager.GraphQL.Types
 {
-    public class ProductType : ObjetctType<Product>
+    public class ProductType : ObjectType<Product>
     {
         protected override void Configure(IObjectTypeDescriptor<Product> descriptor)
         {
@@ -11,7 +11,7 @@ namespace OrderManager.GraphQL.Types
 
             descriptor.Field(p => p.Id).Description("Identificador único del producto.");
 
-            descriptor.Field(p => p.Name).Description("Nombre del producto.")
+            descriptor.Field(p => p.Name).Description("Nombre del producto.");
         }
     }
 }

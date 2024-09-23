@@ -3,7 +3,7 @@ using OrderManager.Models;
 
 namespace OrderManager.GraphQL.Types
 {
-    public class CustomerType : ObjetctType<Customer>
+    public class CustomerType : ObjectType<Customer>
     {
         protected override void Configure(IObjectTypeDescriptor<Customer> descriptor)
         {

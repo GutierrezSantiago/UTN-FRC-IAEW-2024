@@ -13,7 +13,7 @@ namespace OrderManager.GraphQL
         {
             var order = new Order
             {
-                Id = Data.Data.Order.Count + 1,
+                Id = Data.Data.Orders.Count + 1,
                 Customer = new Customer
                 {
                     Id = orderInput.Customer.Id,
@@ -39,13 +39,13 @@ namespace OrderManager.GraphQL
         public class OrderInput
         {
             public CustomerInput Customer { get; set; }
-            public List<ProductInput> Products { get; set }
+            public List<ProductInput> Products { get; set; }
         }
 
         public class CustomerInput
         {
             public int Id { get; set; }
-            public string FullName{ get; set; }
+            public string FullName { get; set; }
         }
 
         public class ProductInput

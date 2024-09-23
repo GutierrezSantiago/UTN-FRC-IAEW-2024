@@ -3,7 +3,7 @@ using OrderManager.Models;
 
 namespace OrderManager.GraphQL.Types
 {
-    public class ProductType : ObjetctType<Order>
+    public class OrderType : ObjectType<Order>
     {
         protected override void Configure(IObjectTypeDescriptor<Order> descriptor)
         {
