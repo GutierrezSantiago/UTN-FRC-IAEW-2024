@@ -1,6 +1,6 @@
 # Repository Overview
 
-This repository contains multiple projects that demonstrate various implementations using ASP.NET Core, React.js, GraphQL, In-Memory Cache and Auth0 for authentication and authorization.
+This repository contains multiple projects that demonstrate various implementations using ASP.NET Core, React.js, GraphQL, In-Memory Cache, and Auth0 for authentication and authorization.
 
 ## Projects
 
@@ -33,7 +33,7 @@ A GraphQL API for managing orders, built using ASP.NET Core.
 
 ---
 
-### 3. SpotifyGraphQL
+### 3. SpotifyGraphQLBFF
 **Description:**  
 A full-stack project featuring a React.js frontend and a Backend For Frontend (BFF) built in ASP.NET Core. It includes authentication and authorization with Auth0 and Spotify, and a GraphQL API for interacting with Spotify data.
 
@@ -53,6 +53,17 @@ A full-stack project featuring a React.js frontend and a Backend For Frontend (B
 
 ---
 
+## Research on Web Integration
+
+This folder (`Research`) contains various materials related to the integration of applications in web environments. The documents are written in **Spanish**.
+
+- **Client Secrets:** Some examples in this research required client secrets for testing purposes. All sensitive information has been removed or replaced with placeholders.
+- **Configuration Files:** Any configuration involving sensitive data (such as API keys or client secrets) should be filled using environment variables. Follow the setup instructions in each project folder for further details.
+
+**Important:** Never upload real client secrets or credentials to public repositories. Use `.env` files or secure vaults for handling sensitive information in a production environment.
+
+---
+
 ## Getting Started
 
 Each project is located in its respective folder. Navigate to the desired project folder for setup instructions.
@@ -63,3 +74,5 @@ cd APIEstudiantes
 cd GraphQL
 # or
 cd SpotifyGraphQLBFF
+# or
+cd research
