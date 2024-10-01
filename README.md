@@ -53,6 +53,14 @@ A full-stack project featuring a React.js frontend and a Backend For Frontend (B
 
 ---
 
+### 4. JWTDecodingJS
+**Description:**  
+Simple JS scripts to validate and decode JWT.
+
+**Technologies:**
+- JavaScript
+
+---
 ## Research on Web Integration
 
 This folder (`Research`) contains various materials related to the integration of applications in web environments. The documents are written in **Spanish**.
@@ -67,12 +75,3 @@ This folder (`Research`) contains various materials related to the integration o
 ## Getting Started
 
 Each project is located in its respective folder. Navigate to the desired project folder for setup instructions.
-
-```bash
-cd APIEstudiantes
-# or
-cd GraphQL
-# or
-cd SpotifyGraphQLBFF
-# or
-cd research
