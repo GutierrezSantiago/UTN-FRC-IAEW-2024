@@ -3,7 +3,7 @@ using System.Text;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authentication.BearerToken;
 using Microsoft.AspNetCore.Authentication.OAuth;
-//using SpotifyGraphQLBff.Models;
+using SpotifyGraphQLBFF.Models;
 
 namespace SpotifyGraphQLBFF.Services
 {
@@ -43,7 +43,7 @@ namespace SpotifyGraphQLBFF.Services
             response.EnsureSuccessStatusCode();
 
             var content = await response.Content.ReadAsStringAsync(); 
-            var tokenResponse = JsonSerializer.Deserialize<AccessTokenResponse>(content);
+            var tokenResponse = JsonSerializer.Deserialize<TokenResponse>(content);
             
             _accessToken = tokenResponse.AccessToken;
             _tokenExpiry = DateTime.UtcNow.AddSeconds(tokenResponse.ExpiresIn);
