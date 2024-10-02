@@ -2,7 +2,7 @@ import React from 'react';
 import { ApolloProvider } from "@apollo/client";
 import { useAuth0 } from "@auth0/auth0-react";
 import createApolloClient from "./ApolloClient";
-import ArtistSearch from './ArtistSearch';
+import ArtistSearch from './components/ArtistSearch';
 
 function App() {
   const { isAuthenticated, getAccessTokenSilently, isLoading } = useAuth0();
